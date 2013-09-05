@@ -1,0 +1,13 @@
+<div id="header">
+  <%= link_to "Create Image", new_image_path %>
+</div>
+<div id="images-index">
+  <h2>Image Hub</h2>
+  <div class="images-list">
+    <% @images.each do |i| %>
+      <div class="image-in-list">
+      <%= render i %>
+      </div>
+    <% end %>
+  </div>
+</div>

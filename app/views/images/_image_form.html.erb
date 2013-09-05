@@ -11,15 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field title-field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+  <div id="image-form">
+    <div class="field title-field">
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </div>
+    <div class="field url-field">
+      <%= f.label :url %>
+      <%= f.text_field :url %>
+    </div>
   </div>
-  <div class="field url-field">
-    <%= f.label :url %><br>
-    <%= f.text_field :url %>
-  </div>
-  <div class="actions">
+  <div class="image-form-actions">
     <%= f.submit %>
   </div>
+
 <% end %>
