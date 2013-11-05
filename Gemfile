@@ -32,8 +32,7 @@ gem 'awesome_print'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
-  gem 'pry-rails'
-  gem 'pry-debugger'
+  gem 'jazz_hands'
 end
 
 group :test do
