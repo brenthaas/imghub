@@ -32,9 +32,9 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.1.4)
     coderay (1.0.9)
-    coffee-rails (4.0.0)
+    coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0.beta, < 5.0)
+      railties (>= 4.0.0, < 5.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -51,8 +51,7 @@ GEM
     diff-lcs (1.2.4)
     diffy (3.0.1)
     erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
+    execjs (2.0.2)
     grit (2.5.0)
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
@@ -141,9 +140,9 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
-    sass (3.2.9)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
+    sass (3.2.12)
+    sass-rails (4.0.1)
+      railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
     sdoc (0.3.20)
@@ -186,14 +185,14 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  coffee-rails (~> 4.0.0)
+  coffee-rails (~> 4.0.1)
   jazz_hands
   jbuilder (~> 1.0.1)
   jquery-rails
   mysql2
   rails (= 4.0.1)
   rspec-rails (~> 2.0)
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.1)
   sdoc
   shoulda-matchers
   turbolinks
