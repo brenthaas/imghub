@@ -52,4 +52,5 @@ end
 
 group :development do
   gem 'capistrano-rails', '~> 1.0.0'
+  gem 'capistrano-bundler'
 end
