@@ -34,6 +34,6 @@ production:
   encoding: utf8
   database: imghub_production
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  username: imghub
+  password: pimpmycloset01
+  socket: /var/run/mysqld/mysqld.sock
